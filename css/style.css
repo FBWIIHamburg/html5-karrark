@@ -3,29 +3,46 @@ body {
     font-size: 0.9em;
   }
   
-  div#header, div#footer {
-    padding: 10px;
+  header, footer {
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     background-color: black;
   }
-  
-  div#content {
+  header{
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+
+ section {
+    padding-right: 10%;
+      padding-left: 10%;
+      padding-top: 10px;
     margin: 5px;
-    padding: 10px;
+    padding-bottom: 10px;
     background-color: lightgrey;
   }
+
   
-  div.article {
-    margin: 5px;
+  article {
+    margin: 4px;
     padding: 10px;
     background-color: white;
   }
+  nav{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
   
-  div#menu ul {
+  nav ul {
     padding: 0;
   }
   
-  div#menu ul li {
+  nav ul li {
     display: inline;
     margin: 5px;
   }
