@@ -19,6 +19,10 @@ body {
 
 
  section {
+     
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
     padding-right: 10%;
       padding-left: 10%;
       padding-top: 10px;
@@ -26,9 +30,13 @@ body {
     padding-bottom: 10px;
     background-color: lightgrey;
   }
-
+section>h2{
+    flex: 100%;
+}
   
   article {
+   
+width: 30%;
     margin: 4px;
     padding: 10px;
     background-color: white;
